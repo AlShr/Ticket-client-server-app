@@ -1,0 +1,55 @@
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\bin\Debug\TicketService.dll.config
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\bin\Debug\TicketService.dll
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\bin\Debug\TicketService.pdb
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\bin\Debug\TicketDAL.dll
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\bin\Debug\EntityFramework.dll
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\bin\Debug\TicketDAL.pdb
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\bin\Debug\EntityFramework.xml
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\bin\Debug\ru\EntityFramework.resources.dll
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\obj\Debug\TicketServiceWCF.csprojResolveAssemblyReference.cache
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\obj\Debug\TicketService.dll
+F:\Programing\Экстремальное программирование\18092014\18092014\TicketService\TicketService\obj\Debug\TicketService.pdb
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\obj\Debug\TicketServiceWCF.csprojResolveAssemblyReference.cache
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\obj\Debug\TicketService.dll
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\obj\Debug\TicketService.pdb
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\bin\Debug\TicketService.dll.config
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\bin\Debug\TicketService.dll
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\bin\Debug\TicketService.pdb
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\bin\Debug\TicketDAL.dll
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\bin\Debug\EntityFramework.dll
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\bin\Debug\TicketDAL.pdb
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\bin\Debug\EntityFramework.xml
+F:\Programing\Экстремальное программирование\20092014\TicketService\TicketService\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\05916\Desktop\TicketService\TicketService\bin\Debug\TicketService.dll.config
+C:\Users\05916\Desktop\TicketService\TicketService\bin\Debug\TicketService.dll
+C:\Users\05916\Desktop\TicketService\TicketService\bin\Debug\TicketService.pdb
+C:\Users\05916\Desktop\TicketService\TicketService\bin\Debug\TicketDAL.dll
+C:\Users\05916\Desktop\TicketService\TicketService\bin\Debug\EntityFramework.dll
+C:\Users\05916\Desktop\TicketService\TicketService\bin\Debug\TicketDAL.pdb
+C:\Users\05916\Desktop\TicketService\TicketService\bin\Debug\EntityFramework.xml
+C:\Users\05916\Desktop\TicketService\TicketService\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\05916\Desktop\TicketService\TicketService\obj\Debug\TicketServiceWCF.csprojResolveAssemblyReference.cache
+C:\Users\05916\Desktop\TicketService\TicketService\obj\Debug\TicketService.dll
+C:\Users\05916\Desktop\TicketService\TicketService\obj\Debug\TicketService.pdb
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\bin\Debug\TicketService.dll.config
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\bin\Debug\TicketService.dll
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\bin\Debug\TicketService.pdb
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\bin\Debug\TicketDAL.dll
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\bin\Debug\EntityFramework.dll
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\bin\Debug\TicketDAL.pdb
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\bin\Debug\EntityFramework.xml
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\obj\Debug\TicketServiceWCF.csprojResolveAssemblyReference.cache
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\obj\Debug\TicketService.dll
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Server\TicketService\TicketService\obj\Debug\TicketService.pdb
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\bin\Debug\TicketService.dll.config
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\bin\Debug\TicketService.dll
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\bin\Debug\TicketService.pdb
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\bin\Debug\TicketDAL.dll
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\bin\Debug\EntityFramework.dll
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\bin\Debug\TicketDAL.pdb
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\bin\Debug\EntityFramework.xml
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\obj\Debug\TicketServiceWCF.csprojResolveAssemblyReference.cache
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\obj\Debug\TicketService.dll
+C:\Users\06336\Desktop\23.09.14\TicketService\TicketService\obj\Debug\TicketService.pdb

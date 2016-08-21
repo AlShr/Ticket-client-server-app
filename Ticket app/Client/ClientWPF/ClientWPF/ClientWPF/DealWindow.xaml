@@ -1,0 +1,30 @@
+﻿<Window x:Class="ClientWPF.DealWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DealWindow" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Style="{StaticResource titleStyle}"
+                   Margin="5" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">Мобильный  билет</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" Style="{StaticResource smallTitleStyle}" Margin="0,5,0,5">№ транспорта:</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Style="{StaticResource textStyleTextBox}" Text="{Binding Path=Transport.number,UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Style="{StaticResource smallTitleStyle}" Margin="0,5,0,5">Маршрут:</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1" Style="{StaticResource textStyleTextBox}" Text="{Binding Path=tRoute.City.city1,UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock  Grid.Row="2" Grid.Column="2"    Style="{StaticResource titleStyle}">></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="3" Style="{StaticResource textStyleTextBox}" Text="{Binding Path=tRoute.City1.city1,UpdateSourceTrigger=PropertyChanged}"/>
+    </Grid>
+</Window>

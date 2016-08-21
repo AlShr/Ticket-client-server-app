@@ -1,0 +1,13 @@
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\bin\Debug\AdminClient.exe.config
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\bin\Debug\AdminClient.exe
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\bin\Debug\AdminClient.pdb
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\bin\Debug\EntityFramework.dll
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\bin\Debug\EntityFramework.xml
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\bin\Debug\ru\EntityFramework.resources.dll
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\obj\Debug\AdminClient.csprojResolveAssemblyReference.cache
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\obj\Debug\AdminClient.AddCity.resources
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\obj\Debug\AdminClient.Form1.resources
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.Cache
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\obj\Debug\AdminClient.exe
+c:\users\06284\documents\visual studio 2012\Projects\AdminClient\AdminClient\obj\Debug\AdminClient.pdb

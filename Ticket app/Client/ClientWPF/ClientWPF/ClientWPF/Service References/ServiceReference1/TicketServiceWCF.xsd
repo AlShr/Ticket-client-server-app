@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TicketServiceWCF" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TicketServiceWCF" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfTransportItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TransportItem" nillable="true" type="tns:TransportItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTransportItem" nillable="true" type="tns:ArrayOfTransportItem" />
+  <xs:complexType name="TransportItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CarriageNumberItem" type="xs:int" />
+      <xs:element minOccurs="0" name="CostItem" type="xs:int" />
+      <xs:element minOccurs="0" name="Number" type="xs:int" />
+      <xs:element minOccurs="0" name="RouteItem" nillable="true" type="tns:TRoutesItemEntity" />
+      <xs:element minOccurs="0" name="SeatsCountItem" type="xs:int" />
+      <xs:element minOccurs="0" name="TransportItemID" type="xs:int" />
+      <xs:element minOccurs="0" name="TransportsTypeItem" nillable="true" type="tns:TransportTypeItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransportItem" nillable="true" type="tns:TransportItem" />
+  <xs:complexType name="TRoutesItemEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ArrivalItem" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DepartureItem" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FromCityItem" nillable="true" type="tns:CitesItemEntity" />
+      <xs:element minOccurs="0" name="PriceItem" type="xs:int" />
+      <xs:element minOccurs="0" name="TRoutesItemID" type="xs:int" />
+      <xs:element minOccurs="0" name="ToCityItem" nillable="true" type="tns:CitesItemEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TRoutesItemEntity" nillable="true" type="tns:TRoutesItemEntity" />
+  <xs:complexType name="CitesItemEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CityItemID" type="xs:int" />
+      <xs:element minOccurs="0" name="CityName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CitesItemEntity" nillable="true" type="tns:CitesItemEntity" />
+  <xs:complexType name="TransportTypeItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TransportItemID" type="xs:int" />
+      <xs:element minOccurs="0" name="TransportTypeNameItem" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransportTypeItem" nillable="true" type="tns:TransportTypeItem" />
+  <xs:complexType name="ArrayOfSeatsItemEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SeatsItemEntity" nillable="true" type="tns:SeatsItemEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSeatsItemEntity" nillable="true" type="tns:ArrayOfSeatsItemEntity" />
+  <xs:complexType name="SeatsItemEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="SeatNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="SeatState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SeatsItemID" type="xs:int" />
+      <xs:element minOccurs="0" name="TransportID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SeatsItemEntity" nillable="true" type="tns:SeatsItemEntity" />
+</xs:schema>

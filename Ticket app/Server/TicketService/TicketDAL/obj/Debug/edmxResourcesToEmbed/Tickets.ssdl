@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище teamProject2022Model" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Хранилище teamProject2022ModelContainer">
+    <EntitySet Name="Cities" EntityType="Хранилище teamProject2022Model.Cities" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Seats" EntityType="Хранилище teamProject2022Model.Seats" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SeatState" EntityType="Хранилище teamProject2022Model.SeatState" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tickets" EntityType="Хранилище teamProject2022Model.Tickets" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TicketState" EntityType="Хранилище teamProject2022Model.TicketState" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Transports" EntityType="Хранилище teamProject2022Model.Transports" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TransportType" EntityType="Хранилище teamProject2022Model.TransportType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tRoutes" EntityType="Хранилище teamProject2022Model.tRoutes" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="fkSeatsToSeatState" Association="Хранилище teamProject2022Model.fkSeatsToSeatState">
+      <End Role="SeatState" EntitySet="SeatState" />
+      <End Role="Seats" EntitySet="Seats" />
+    </AssociationSet>
+    <AssociationSet Name="fkSeatsToTransport" Association="Хранилище teamProject2022Model.fkSeatsToTransport">
+      <End Role="Transports" EntitySet="Transports" />
+      <End Role="Seats" EntitySet="Seats" />
+    </AssociationSet>
+    <AssociationSet Name="fkTicketsToSeats" Association="Хранилище teamProject2022Model.fkTicketsToSeats">
+      <End Role="Seats" EntitySet="Seats" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="fkTicketsToTicketState" Association="Хранилище teamProject2022Model.fkTicketsToTicketState">
+      <End Role="TicketState" EntitySet="TicketState" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="fkTicketsToTransports" Association="Хранилище teamProject2022Model.fkTicketsToTransports">
+      <End Role="Transports" EntitySet="Transports" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="fkTransportsToTransportType" Association="Хранилище teamProject2022Model.fkTransportsToTransportType">
+      <End Role="TransportType" EntitySet="TransportType" />
+      <End Role="Transports" EntitySet="Transports" />
+    </AssociationSet>
+    <AssociationSet Name="fkTransportsTotRoutes" Association="Хранилище teamProject2022Model.fkTransportsTotRoutes">
+      <End Role="tRoutes" EntitySet="tRoutes" />
+      <End Role="Transports" EntitySet="Transports" />
+    </AssociationSet>
+    <AssociationSet Name="fktRoutesToCities" Association="Хранилище teamProject2022Model.fktRoutesToCities">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="tRoutes" EntitySet="tRoutes" />
+    </AssociationSet>
+    <AssociationSet Name="fktRoutesToCities2" Association="Хранилище teamProject2022Model.fktRoutesToCities2">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="tRoutes" EntitySet="tRoutes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="city" Type="nvarchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Seats">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="seatStateId" Type="int" Nullable="false" />
+    <Property Name="seatNumber" Type="int" Nullable="false" />
+    <Property Name="transportId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SeatState">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="stateName" Type="nvarchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Tickets">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="passangerName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="transportId" Type="int" Nullable="false" />
+    <Property Name="seatId" Type="int" Nullable="false" />
+    <Property Name="purchaseDate" Type="datetime" />
+    <Property Name="ticketStateId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TicketState">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="stateName" Type="nvarchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Transports">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="transportTypeId" Type="int" Nullable="false" />
+    <Property Name="number" Type="int" Nullable="false" />
+    <Property Name="routeId" Type="int" Nullable="false" />
+    <Property Name="seatsCount" Type="int" />
+    <Property Name="carriageNumber" Type="int" />
+    <Property Name="cost" Type="int" />
+  </EntityType>
+  <EntityType Name="TransportType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="transportType" Type="nvarchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tRoutes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fromId" Type="int" Nullable="false" />
+    <Property Name="toId" Type="int" Nullable="false" />
+    <Property Name="arrival" Type="datetime" />
+    <Property Name="departure" Type="datetime" />
+    <Property Name="price" Type="int" />
+  </EntityType>
+  <Association Name="fkSeatsToSeatState">
+    <End Role="SeatState" Type="Хранилище teamProject2022Model.SeatState" Multiplicity="1" />
+    <End Role="Seats" Type="Хранилище teamProject2022Model.Seats" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SeatState">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Seats">
+        <PropertyRef Name="seatStateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkSeatsToTransport">
+    <End Role="Transports" Type="Хранилище teamProject2022Model.Transports" Multiplicity="1" />
+    <End Role="Seats" Type="Хранилище teamProject2022Model.Seats" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transports">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Seats">
+        <PropertyRef Name="transportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTicketsToSeats">
+    <End Role="Seats" Type="Хранилище teamProject2022Model.Seats" Multiplicity="1" />
+    <End Role="Tickets" Type="Хранилище teamProject2022Model.Tickets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Seats">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="seatId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTicketsToTicketState">
+    <End Role="TicketState" Type="Хранилище teamProject2022Model.TicketState" Multiplicity="1" />
+    <End Role="Tickets" Type="Хранилище teamProject2022Model.Tickets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TicketState">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="ticketStateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTicketsToTransports">
+    <End Role="Transports" Type="Хранилище teamProject2022Model.Transports" Multiplicity="1" />
+    <End Role="Tickets" Type="Хранилище teamProject2022Model.Tickets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transports">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="transportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTransportsToTransportType">
+    <End Role="TransportType" Type="Хранилище teamProject2022Model.TransportType" Multiplicity="1" />
+    <End Role="Transports" Type="Хранилище teamProject2022Model.Transports" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransportType">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Transports">
+        <PropertyRef Name="transportTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTransportsTotRoutes">
+    <End Role="tRoutes" Type="Хранилище teamProject2022Model.tRoutes" Multiplicity="1" />
+    <End Role="Transports" Type="Хранилище teamProject2022Model.Transports" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tRoutes">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Transports">
+        <PropertyRef Name="routeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fktRoutesToCities">
+    <End Role="Cities" Type="Хранилище teamProject2022Model.Cities" Multiplicity="1" />
+    <End Role="tRoutes" Type="Хранилище teamProject2022Model.tRoutes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tRoutes">
+        <PropertyRef Name="fromId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fktRoutesToCities2">
+    <End Role="Cities" Type="Хранилище teamProject2022Model.Cities" Multiplicity="1" />
+    <End Role="tRoutes" Type="Хранилище teamProject2022Model.tRoutes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tRoutes">
+        <PropertyRef Name="toId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

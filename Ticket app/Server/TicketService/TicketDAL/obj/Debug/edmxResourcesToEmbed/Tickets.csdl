@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="teamProject2022Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="teamEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Cities" EntityType="teamProject2022Model.City" />
+    <EntitySet Name="Seats" EntityType="teamProject2022Model.Seat" />
+    <EntitySet Name="SeatState" EntityType="teamProject2022Model.SeatState" />
+    <EntitySet Name="Tickets" EntityType="teamProject2022Model.Ticket" />
+    <EntitySet Name="TicketState" EntityType="teamProject2022Model.TicketState" />
+    <EntitySet Name="Transports" EntityType="teamProject2022Model.Transport" />
+    <EntitySet Name="TransportType" EntityType="teamProject2022Model.TransportType" />
+    <EntitySet Name="tRoutes" EntityType="teamProject2022Model.tRoute" />
+    <AssociationSet Name="fktRoutesToCities" Association="teamProject2022Model.fktRoutesToCities">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="tRoutes" EntitySet="tRoutes" />
+    </AssociationSet>
+    <AssociationSet Name="fktRoutesToCities2" Association="teamProject2022Model.fktRoutesToCities2">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="tRoutes" EntitySet="tRoutes" />
+    </AssociationSet>
+    <AssociationSet Name="fkSeatsToSeatState" Association="teamProject2022Model.fkSeatsToSeatState">
+      <End Role="SeatState" EntitySet="SeatState" />
+      <End Role="Seats" EntitySet="Seats" />
+    </AssociationSet>
+    <AssociationSet Name="fkSeatsToTransport" Association="teamProject2022Model.fkSeatsToTransport">
+      <End Role="Transports" EntitySet="Transports" />
+      <End Role="Seats" EntitySet="Seats" />
+    </AssociationSet>
+    <AssociationSet Name="fkTicketsToSeats" Association="teamProject2022Model.fkTicketsToSeats">
+      <End Role="Seats" EntitySet="Seats" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="fkTicketsToTicketState" Association="teamProject2022Model.fkTicketsToTicketState">
+      <End Role="TicketState" EntitySet="TicketState" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="fkTicketsToTransports" Association="teamProject2022Model.fkTicketsToTransports">
+      <End Role="Transports" EntitySet="Transports" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="fkTransportsToTransportType" Association="teamProject2022Model.fkTransportsToTransportType">
+      <End Role="TransportType" EntitySet="TransportType" />
+      <End Role="Transports" EntitySet="Transports" />
+    </AssociationSet>
+    <AssociationSet Name="fkTransportsTotRoutes" Association="teamProject2022Model.fkTransportsTotRoutes">
+      <End Role="tRoutes" EntitySet="tRoutes" />
+      <End Role="Transports" EntitySet="Transports" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="city1" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tRoutes" Relationship="teamProject2022Model.fktRoutesToCities" FromRole="Cities" ToRole="tRoutes" />
+    <NavigationProperty Name="tRoutes1" Relationship="teamProject2022Model.fktRoutesToCities2" FromRole="Cities" ToRole="tRoutes" />
+  </EntityType>
+  <EntityType Name="Seat">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="seatStateId" Type="Int32" Nullable="false" />
+    <Property Name="seatNumber" Type="Int32" Nullable="false" />
+    <Property Name="transportId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="SeatState" Relationship="teamProject2022Model.fkSeatsToSeatState" FromRole="Seats" ToRole="SeatState" />
+    <NavigationProperty Name="Transport" Relationship="teamProject2022Model.fkSeatsToTransport" FromRole="Seats" ToRole="Transports" />
+    <NavigationProperty Name="Tickets" Relationship="teamProject2022Model.fkTicketsToSeats" FromRole="Seats" ToRole="Tickets" />
+  </EntityType>
+  <EntityType Name="SeatState">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="stateName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Seats" Relationship="teamProject2022Model.fkSeatsToSeatState" FromRole="SeatState" ToRole="Seats" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="passangerName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="transportId" Type="Int32" Nullable="false" />
+    <Property Name="seatId" Type="Int32" Nullable="false" />
+    <Property Name="purchaseDate" Type="DateTime" Precision="3" />
+    <Property Name="ticketStateId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Seat" Relationship="teamProject2022Model.fkTicketsToSeats" FromRole="Tickets" ToRole="Seats" />
+    <NavigationProperty Name="TicketState" Relationship="teamProject2022Model.fkTicketsToTicketState" FromRole="Tickets" ToRole="TicketState" />
+    <NavigationProperty Name="Transport" Relationship="teamProject2022Model.fkTicketsToTransports" FromRole="Tickets" ToRole="Transports" />
+  </EntityType>
+  <EntityType Name="TicketState">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="stateName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Tickets" Relationship="teamProject2022Model.fkTicketsToTicketState" FromRole="TicketState" ToRole="Tickets" />
+  </EntityType>
+  <EntityType Name="Transport">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="transportTypeId" Type="Int32" Nullable="false" />
+    <Property Name="number" Type="Int32" Nullable="false" />
+    <Property Name="routeId" Type="Int32" Nullable="false" />
+    <Property Name="seatsCount" Type="Int32" />
+    <Property Name="carriageNumber" Type="Int32" />
+    <Property Name="cost" Type="Int32" />
+    <NavigationProperty Name="Seats" Relationship="teamProject2022Model.fkSeatsToTransport" FromRole="Transports" ToRole="Seats" />
+    <NavigationProperty Name="Tickets" Relationship="teamProject2022Model.fkTicketsToTransports" FromRole="Transports" ToRole="Tickets" />
+    <NavigationProperty Name="TransportType" Relationship="teamProject2022Model.fkTransportsToTransportType" FromRole="Transports" ToRole="TransportType" />
+    <NavigationProperty Name="tRoutes" Relationship="teamProject2022Model.fkTransportsTotRoutes" FromRole="Transports" ToRole="tRoutes" />
+  </EntityType>
+  <EntityType Name="TransportType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="transportType1" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Transports" Relationship="teamProject2022Model.fkTransportsToTransportType" FromRole="TransportType" ToRole="Transports" />
+  </EntityType>
+  <EntityType Name="tRoute">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="fromId" Type="Int32" Nullable="false" />
+    <Property Name="toId" Type="Int32" Nullable="false" />
+    <Property Name="arrival" Type="DateTime" Precision="3" />
+    <Property Name="departure" Type="DateTime" Precision="3" />
+    <Property Name="price" Type="Int32" />
+    <NavigationProperty Name="City" Relationship="teamProject2022Model.fktRoutesToCities" FromRole="tRoutes" ToRole="Cities" />
+    <NavigationProperty Name="City1" Relationship="teamProject2022Model.fktRoutesToCities2" FromRole="tRoutes" ToRole="Cities" />
+    <NavigationProperty Name="Transports" Relationship="teamProject2022Model.fkTransportsTotRoutes" FromRole="tRoutes" ToRole="Transports" />
+  </EntityType>
+  <Association Name="fktRoutesToCities">
+    <End Role="Cities" Type="teamProject2022Model.City" Multiplicity="1" />
+    <End Role="tRoutes" Type="teamProject2022Model.tRoute" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tRoutes">
+        <PropertyRef Name="fromId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fktRoutesToCities2">
+    <End Role="Cities" Type="teamProject2022Model.City" Multiplicity="1" />
+    <End Role="tRoutes" Type="teamProject2022Model.tRoute" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tRoutes">
+        <PropertyRef Name="toId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkSeatsToSeatState">
+    <End Role="SeatState" Type="teamProject2022Model.SeatState" Multiplicity="1" />
+    <End Role="Seats" Type="teamProject2022Model.Seat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SeatState">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Seats">
+        <PropertyRef Name="seatStateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkSeatsToTransport">
+    <End Role="Transports" Type="teamProject2022Model.Transport" Multiplicity="1" />
+    <End Role="Seats" Type="teamProject2022Model.Seat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transports">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Seats">
+        <PropertyRef Name="transportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTicketsToSeats">
+    <End Role="Seats" Type="teamProject2022Model.Seat" Multiplicity="1" />
+    <End Role="Tickets" Type="teamProject2022Model.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Seats">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="seatId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTicketsToTicketState">
+    <End Role="TicketState" Type="teamProject2022Model.TicketState" Multiplicity="1" />
+    <End Role="Tickets" Type="teamProject2022Model.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TicketState">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="ticketStateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTicketsToTransports">
+    <End Role="Transports" Type="teamProject2022Model.Transport" Multiplicity="1" />
+    <End Role="Tickets" Type="teamProject2022Model.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transports">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="transportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTransportsToTransportType">
+    <End Role="TransportType" Type="teamProject2022Model.TransportType" Multiplicity="1" />
+    <End Role="Transports" Type="teamProject2022Model.Transport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransportType">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Transports">
+        <PropertyRef Name="transportTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fkTransportsTotRoutes">
+    <End Role="tRoutes" Type="teamProject2022Model.tRoute" Multiplicity="1" />
+    <End Role="Transports" Type="teamProject2022Model.Transport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tRoutes">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Transports">
+        <PropertyRef Name="routeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

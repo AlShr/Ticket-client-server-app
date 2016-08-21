@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище teamProject2022ModelContainer" CdmEntityContainer="teamProject2022Entities">
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="teamProject2022Model.Cities">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="city" ColumnName="city" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seats">
+      <EntityTypeMapping TypeName="teamProject2022Model.Seats">
+        <MappingFragment StoreEntitySet="Seats">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="seatStateId" ColumnName="seatStateId" />
+          <ScalarProperty Name="seatNumber" ColumnName="seatNumber" />
+          <ScalarProperty Name="transportId" ColumnName="transportId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SeatState">
+      <EntityTypeMapping TypeName="teamProject2022Model.SeatState">
+        <MappingFragment StoreEntitySet="SeatState">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="stateName" ColumnName="stateName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="teamProject2022Model.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tickets">
+      <EntityTypeMapping TypeName="teamProject2022Model.Tickets">
+        <MappingFragment StoreEntitySet="Tickets">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="passangerName" ColumnName="passangerName" />
+          <ScalarProperty Name="transportId" ColumnName="transportId" />
+          <ScalarProperty Name="seatId" ColumnName="seatId" />
+          <ScalarProperty Name="purchaseDate" ColumnName="purchaseDate" />
+          <ScalarProperty Name="ticketStateId" ColumnName="ticketStateId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TicketState">
+      <EntityTypeMapping TypeName="teamProject2022Model.TicketState">
+        <MappingFragment StoreEntitySet="TicketState">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="stateName" ColumnName="stateName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transports">
+      <EntityTypeMapping TypeName="teamProject2022Model.Transports">
+        <MappingFragment StoreEntitySet="Transports">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="transportTypeId" ColumnName="transportTypeId" />
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="routeId" ColumnName="routeId" />
+          <ScalarProperty Name="seatsCount" ColumnName="seatsCount" />
+          <ScalarProperty Name="carriageNumber" ColumnName="carriageNumber" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransportType">
+      <EntityTypeMapping TypeName="teamProject2022Model.TransportType">
+        <MappingFragment StoreEntitySet="TransportType">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="transportType1" ColumnName="transportType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tRoutes">
+      <EntityTypeMapping TypeName="teamProject2022Model.tRoutes">
+        <MappingFragment StoreEntitySet="tRoutes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fromId" ColumnName="fromId" />
+          <ScalarProperty Name="toId" ColumnName="toId" />
+          <ScalarProperty Name="arrival" ColumnName="arrival" />
+          <ScalarProperty Name="departure" ColumnName="departure" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

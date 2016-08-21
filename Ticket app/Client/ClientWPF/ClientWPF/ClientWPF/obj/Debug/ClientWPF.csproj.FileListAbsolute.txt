@@ -1,0 +1,230 @@
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+c:\users\06284\documents\visual studio 2012\Projects\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\11092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\06336\Desktop\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\06336\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\06336\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\gevorkyan_ag\Desktop\15092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\06336\Desktop\15092014 ver.2\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\06336\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\gevorkyan_ag\Desktop\16092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ButtonStyle.baml
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\SeatesTransport.baml
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\SeatesTransport.g.cs
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.g.cs
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.baml
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\06503\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ButtonStyle.baml
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.g.cs
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.baml
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\BlueShiny.baml
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\DealWindow.baml
+F:\Programing\Экстремальное программирование\17092014 - копия\ClientWPF\ClientWPF\ClientWPF\obj\Debug\DealWindow.g.cs
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\18092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\18092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+\\10.3.0.5\Exchange\20 поток\СТ\СП-2022\XP\TeamProject\18092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+F:\Programing\Экстремальное программирование\18092014\18092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+F:\Programing\Экстремальное программирование\18092014\18092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+F:\Programing\Экстремальное программирование\18092014\18092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\BlueShiny.baml
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ButtonStyle.baml
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\DealWindow.baml
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\DealWindow.g.cs
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.g.cs
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.baml
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+F:\Programing\Экстремальное программирование\20092014\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\BlueShiny.baml
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ButtonStyle.baml
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\DealWindow.baml
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\DealWindow.g.cs
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.g.cs
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.baml
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\05916\Desktop\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\BlueShiny.baml
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ButtonStyle.baml
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\DealWindow.baml
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.baml
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.baml
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\DealWindow.g.cs
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\MainWindow.g.cs
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.g.cs
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\App.g.cs
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowMainResources.baml
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\WindowTest.baml
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\gevorkyan_ag\Desktop\TeamProject\Client\ClientWPF\ClientWPF\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
